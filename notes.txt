@@ -1,0 +1,14 @@
+*Find and find_all difference
+    1. find give sout the first parsed tag to be searched for
+    (return type: string  maybe)
+    2. find_all gives out a list of all desired tags to be searched for
+    (return type: list)
+
+*Manipulating attr,printing all the attributes
+    1. Manipulating
+        tag = doc.find("option")
+        tag['value'] = 'new value' #tag['html tags'] = 'suitable value for the tags'
+        tag['selected'] = 'false'
+        tag['color'] = 'blue'
+    2. print(tag.attrs) 
+        -->Gives out all the attributes present in the tag 'tag'

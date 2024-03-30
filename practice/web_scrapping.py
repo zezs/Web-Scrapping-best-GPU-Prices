@@ -23,32 +23,6 @@ print(strong_tag.string)
 tags =  doc.find_all("p")[0]
 print(tags)"""
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """print(doc.prettify())
 tag = doc.find("p")
 tags = doc.find("i")
